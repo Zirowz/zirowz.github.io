@@ -1,60 +1,47 @@
-body {
-    font-family: 'Arial', sans-serif;
+/* Réinitialisation des styles */
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
+/* Styles pour le header */
 header {
     background-color: #333;
+    color: #fff;
     padding: 20px;
-    text-align: center;
-}
-
-header img {
-    width: 200px;
-}
-
-nav {
-    background-color: #1f1f1f;
-    overflow: hidden;
-    text-align: center;
-}
-
-nav a {
-    display: inline-block;
-    padding: 14px 20px;
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-}
-
-nav a:hover {
-    background-color: #333;
-    color: #ffd700;
-}
-
-.hero-image {
-    background-image: url('minecraft_hero.jpg');
-    background-size: cover;
-    height: 400px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
-    color: white;
-    text-align: center;
 }
 
-.hero-image h1 {
-    font-size: 3em;
+.logo img {
+    width: 100px; /* Adapter la taille du logo selon vos besoins */
 }
 
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Styles pour le contenu */
 .content {
     padding: 20px;
 }
 
+/* Styles pour le footer */
 footer {
     background-color: #333;
-    color: white;
+    color: #fff;
     text-align: center;
-    padding: 20px;
+    padding: 10px 0;
 }
