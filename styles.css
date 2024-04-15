@@ -7,7 +7,7 @@
 
 /* Styles pour le header */
 header {
-    background-color: #333;
+    background-color: #4a235a; /* Violet foncé */
     color: #fff;
     padding: 20px;
     display: flex;
@@ -36,11 +36,36 @@ nav ul li a {
 /* Styles pour le contenu */
 .content {
     padding: 20px;
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #8e44ad; /* Violet un peu plus clair */
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #6c3483; /* Violet encore plus foncé au survol */
 }
 
 /* Styles pour le footer */
 footer {
-    background-color: #333;
+    background-color: #4a235a; /* Violet foncé */
     color: #fff;
     text-align: center;
     padding: 10px 0;
