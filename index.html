@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site Minecraft</title>
+    <title>Minecraft</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -11,52 +11,64 @@
             padding: 0;
         }
         header {
-            background-color: #4CAF50;
-            padding: 20px;
+            background-color: #1f1f1f;
             color: white;
+            padding: 20px;
             text-align: center;
         }
         nav {
             background-color: #333;
             overflow: hidden;
+            text-align: center;
         }
         nav a {
-            float: left;
-            display: block;
-            color: white;
-            text-align: center;
+            display: inline-block;
             padding: 14px 20px;
             text-decoration: none;
+            color: white;
         }
         nav a:hover {
             background-color: #ddd;
             color: black;
         }
-        section {
+        .content {
             padding: 20px;
+        }
+        .hero-image {
+            background-image: url('https://www.minecraft.net/content/dam/minecraft/home/hero/home-hero-minecraft-marketplace-update.jpg');
+            background-size: cover;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+        .hero-image h1 {
+            font-size: 3em;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Site Minecraft</h1>
+        <h1>Minecraft</h1>
     </header>
     <nav>
-        <a href="#actualites">Actualités</a>
-        <a href="#telechargements">Téléchargements</a>
-        <a href="#guides">Guides</a>
+        <a href="#">Accueil</a>
+        <a href="#">Actualités</a>
+        <a href="#">Téléchargements</a>
+        <a href="#">Communauté</a>
+        <a href="#">Assistance</a>
     </nav>
-    <section id="actualites">
-        <h2>Actualités</h2>
-        <p>Ici vous trouverez les dernières actualités concernant Minecraft.</p>
-    </section>
-    <section id="telechargements">
-        <h2>Téléchargements</h2>
-        <p>Téléchargez des mods, des maps et d'autres contenus pour enrichir votre expérience Minecraft.</p>
-    </section>
-    <section id="guides">
-        <h2>Guides</h2>
-        <p>Découvrez des guides et des tutoriels pour vous aider dans votre aventure Minecraft.</p>
-    </section>
+    <div class="hero-image">
+        <h1>Bienvenue dans le monde de Minecraft</h1>
+    </div>
+    <div class="content">
+        <h2>Découvrez le jeu</h2>
+        <p>Minecraft est un jeu qui consiste à placer des blocs et à partir dans des aventures. Achetez-le ici ou explorez le site à la recherche des dernières actualités et des incroyables créations de la communauté !</p>
+    </div>
+    <footer>
+        <p>© 2024 Minecraft. Tous droits réservés.</p>
+    </footer>
 </body>
 </html>
