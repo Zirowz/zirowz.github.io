@@ -3,32 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Netheria - Serveur PvP Faction Minecraft</title>
+    <title>Sunlight Kitmap - Minecraft Bedrock</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <div class="logo">
-            <img src="chemin/vers/logo.png" alt="Logo Netheria">
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#">Accueil</a></li>
-                <li><a href="#">Serveur Java</a></li>
-                <li><a href="#">Serveur Bedrock</a></li>
-                <li><a href="https://discord.gg/fKZCthaJ6m" target="_blank">Discord</a></li>
-            </ul>
-        </nav>
+        <img src="https://images-ext-1.discordapp.net/external/dS8VWk6bJ0eyssa3h7Yubil8qTdtojzMtvs7p0bGPBc/%3Fsize%3D4096/https/cdn.discordapp.com/icons/1257047570954453085/3f93adfad3ebb35e711f65884fc019f8.png?format=webp&quality=lossless&width=279&height=279" alt="Sunlight Logo">
+        <h1>Sunlight Kitmap</h1>
     </header>
-
-    <section class="content">
-        <h1>https://fontmeme.com/temporary/031209312a95655528c011e8b537bbeb.png</h1>
-        <p>Un monde de PvP Faction vous attend. Rejoignez la bataille dès aujourd'hui !</p>
-        <a href="#" class="join-btn">Rejoindre le combat</a>
-    </section>
-
+    <main>
+        <section id="server-info">
+            <h2>Informations sur le serveur</h2>
+            <p><strong>IP :</strong> 217.144.154.71</p>
+            <p><strong>PORT :</strong> 4000</p>
+            <p><strong>État du serveur :</strong> <span id="server-status">Chargement...</span></p>
+            <p><strong>Joueurs connectés :</strong> <span id="player-count">Chargement...</span></p>
+        </section>
+        <section id="discord-info">
+            <h2>Notre Discord</h2>
+            <iframe src="https://discord.com/widget?id=1257047570954453085&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
+            <p><a href="https://discord.gg/2zx6ts2aYT" target="_blank">Rejoignez notre serveur Discord</a></p>
+        </section>
+    </main>
     <footer>
-        <p>&copy; 2024 Netheria - Serveur PvP Faction Minecraft</p>
+        <p>&copy; 2024 Sunlight Kitmap. Tous droits réservés.</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
