@@ -1,72 +1,53 @@
-/* Réinitialisation des styles */
-* {
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff3e0;
+    color: #333;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
-/* Styles pour le header */
 header {
-    background-color: #4a235a; /* Violet foncé */
-    color: #fff;
-    padding: 20px;
+    background-color: #ff9800;
+    color: white;
+    padding: 10px 20px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
-.logo img {
-    width: 100px; /* Adapter la taille du logo selon vos besoins */
-}
-
-nav ul {
-    list-style-type: none;
-}
-
-nav ul li {
-    display: inline;
+header img {
+    width: 50px;
+    height: 50px;
     margin-right: 20px;
 }
 
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
+header h1 {
+    margin: 0;
+    font-size: 24px;
 }
 
-/* Styles pour le contenu */
-.content {
+main {
     padding: 20px;
-    text-align: center;
 }
 
-.content h1 {
-    font-size: 36px;
+h2 {
+    color: #ff9800;
+}
+
+section {
     margin-bottom: 20px;
 }
 
-.content p {
-    font-size: 18px;
-    margin-bottom: 20px;
-}
-
-.btn {
-    display: inline-block;
-    background-color: #8e44ad; /* Violet un peu plus clair */
-    color: #fff;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
-
-.btn:hover {
-    background-color: #6c3483; /* Violet encore plus foncé au survol */
-}
-
-/* Styles pour le footer */
 footer {
-    background-color: #4a235a; /* Violet foncé */
-    color: #fff;
+    background-color: #ff9800;
+    color: white;
     text-align: center;
-    padding: 10px 0;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+a {
+    color: #ff9800;
+    text-decoration: none;
 }
