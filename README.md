@@ -9,4 +9,4 @@
 
    ### **On espère vite vous retrouvez en jeu !**
 
-  -# Ce site est en cour de développement , comme le développeur ! Je suis actuellement en train d'apprendre le html , css , php et python ! Merci à tous pour votre compréhension.
+  #- Ce site est en cour de développement , comme le développeur ! Je suis actuellement en train d'apprendre le html , css , php et python ! Merci à tous pour votre compréhension.
