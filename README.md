@@ -9,4 +9,4 @@
 
    ### **On espère vite vous retrouvez en jeu !**
 
-  <span style="font-size: 12px;">Ce site est en cour de développement , comme le développeur ! Je suis actuellement en train d'apprendre le html , css , php et python ! Merci à tous pour votre compréhension.</span>
+  <span style="font-size: 12px;">*Ce site est en cour de développement , comme le développeur ! Je suis actuellement en train d'apprendre le html , css , php et python ! Merci à tous pour votre compréhension.*</span>
