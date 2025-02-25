@@ -1,12 +1,5 @@
-## [🌴] Sunlight Kitmap !
+## Qu'est ce que c'est ?
 
-**Voici le site en développement de Sunlight.**
-   *Retrouvez nous dès bientôt à la V1 de Sunlight !*
-
-   **__En attendant vous pouvez voter pour nous via ce lien :__**
- 
-   **[cliquez ici !](https://minecraftpocket-servers.com/server/128365/vote/)**
-
-   ### **On espère vite vous retrouvez en jeu !**
-
-  <span style="font-size: 12px;">*Ce site est en cour de développement , comme le développeur ! Je suis actuellement en train d'apprendre le html , css , php et python ! Merci à tous pour votre compréhension.*</span>
+**Ceci est mon premier site que je code sans rien utiliser (logiciel de texte, AI, aide, etc...)**
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*Les critiques ne seront pas prises en compte :)*
