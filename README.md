@@ -1,5 +1,1 @@
-## Qu'est ce que c'est ?
-
-**Ceci est mon premier site que je code sans rien utiliser (logiciel de texte, AI, aide, etc...)**
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-*Les critiques ne seront pas prises en compte :)*
+apprentissage html et autre.
