@@ -7,6 +7,84 @@
     <title>Boutique Arisia</title>
     <link rel="icon" href="arisia-logo.png" />
     <link rel="stylesheet" href="boutique.css" />
+    <style>
+      body {
+        background-color: #333;
+        color: white;
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+      }
+
+      .scroll {
+        padding: 20px;
+        min-height: 100vh;
+      }
+
+      header {
+        display: flex;
+        align-items: center;
+        padding-bottom: 20px;
+      }
+
+      .logo img {
+        cursor: pointer;
+        width: 100px;
+      }
+
+      .f2w {
+        margin-top: 20px;
+        font-size: 18px;
+        text-align: center;
+      }
+
+      .line {
+        margin: 20px auto;
+        width: 80%;
+        height: 5px;
+        background: red;
+      }
+
+      .boutique-icon {
+        display: block;
+        margin: 20px auto;
+        max-width: 80%;
+        height: auto;
+      }
+
+      .shop-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 20px;
+        margin-top: 40px;
+      }
+
+      .shop-item {
+        background-color: rgba(255, 255, 255, 0.05);
+        border: 3px solid red;
+        border-radius: 10px;
+        overflow: hidden;
+        transition: transform 0.3s ease;
+        opacity: 0.5;
+      }
+
+      .shop-item:hover {
+        transform: scale(1.05);
+      }
+
+      .shop-item img {
+        width: 100%;
+        display: block;
+        height: auto;
+      }
+
+      @media screen and (max-width: 600px) {
+        .f2w {
+          font-size: 16px;
+          padding: 0 10px;
+        }
+      }
+    </style>
 </head>
 <body>
   <section class="scroll">
@@ -15,49 +93,31 @@
         <img src="arisia-big.png" alt="Logo de arisia">
       </a>
     </header>
-    <div class="f2w">ATTENTION : Bien que nous possédons une boutique avec des éléments achetables,<br> Arisia reste un serveur F2W (Farm to Win) !</div>
+
+    <div class="f2w">
+      ATTENTION : Bien que nous possédons une boutique avec des éléments achetables,<br>
+      Arisia reste un serveur F2W (Farm to Win) !
+    </div>
+
     <div class="line"></div>
-    <div>
-      <img class="boutique-icon" src="boutique-icon.png" alt="boutique-icon">
-    </div>
-    <div class="shop-item">
-      <img src="background.png" alt="background 1" class="back1">
-    </div>
-    <div class="shop-item2">
-      <img src="background.png" alt="background 2" class="back2">
-    </div>
-    <div class="shop-item3">
-      <img src="background.png" alt="background 3" class="back3">
-    </div>
-    <div class="shop-item4">
-      <img src="background.png" alt="background 4" class="back4">
-    </div>
-    <div class="shop-item5">
-      <img src="background.png" alt="background 5" class="back5">
-    </div>
-    <div class="shop-item6">
-      <img src="background.png" alt="background 6" class="back6">
-    </div>
-    <div class="shop-item7">
-      <img src="background.png" alt="background 7" class="back7">
-    </div>
-    <div class="shop-item8">
-      <img src="background.png" alt="background 8" class="back8">
-    </div>
-    <div class="shop-item9">
-      <img src="background.png" alt="background 9" class="back9">
-    </div>
-    <div class="shop-item10">
-      <img src="background.png" alt="background 10" class="back10">
-    </div>
-    <div class="shop-item11">
-      <img src="background.png" alt="background 11" class="back11">
-    </div>
-    <div class="shop-item12">
-      <img src="background.png" alt="background 12" class="back12">
-    </div>
 
+    <img class="boutique-icon" src="boutique-icon.png" alt="boutique-icon">
 
+    <div class="shop-grid">
+      <!-- 12 items identiques, mais structure allégée -->
+      <div class="shop-item"><img src="background.png" alt="background 1"></div>
+      <div class="shop-item"><img src="background.png" alt="background 2"></div>
+      <div class="shop-item"><img src="background.png" alt="background 3"></div>
+      <div class="shop-item"><img src="background.png" alt="background 4"></div>
+      <div class="shop-item"><img src="background.png" alt="background 5"></div>
+      <div class="shop-item"><img src="background.png" alt="background 6"></div>
+      <div class="shop-item"><img src="background.png" alt="background 7"></div>
+      <div class="shop-item"><img src="background.png" alt="background 8"></div>
+      <div class="shop-item"><img src="background.png" alt="background 9"></div>
+      <div class="shop-item"><img src="background.png" alt="background 10"></div>
+      <div class="shop-item"><img src="background.png" alt="background 11"></div>
+      <div class="shop-item"><img src="background.png" alt="background 12"></div>
     </div>
-  </body>
+  </section>
+</body>
 </html>
