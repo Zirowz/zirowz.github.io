@@ -1,0 +1,176 @@
+body {
+  background-color: #333;
+  color: white;
+}
+
+.scroll {
+  background-color: #333;
+  padding: 20px;
+  min-height: 200vh;
+}
+
+.logo img {
+  cursor: pointer;
+  width: 10%;
+}
+
+.logo img:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+  transition: 0.3s ease;
+}
+
+.f2w {
+  position: absolute;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  top: 200px;
+  left: 50px;
+}
+
+.line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  position: absolute;
+  width: 500px;
+  height: 17px;
+}
+
+.line::before {
+  content: "";
+  position: absolute;
+  top: 143px;
+  left: 18px;
+  right: 0;
+  height: 5px;
+  background: red;
+  background-size: 20px 100%;
+}
+
+.back1 {
+  width: 20%;
+  opacity: 50%;
+  position: absolute;
+  top: 400px;
+  left: 65px;
+  border: 3px solid red;
+  border-radius: 10px;
+}
+
+.back2 {
+  width: 20%;
+  opacity: 50%;
+  position: absolute;
+  top: 400px;
+  left: 485px;
+  border: 3px solid red;
+  border-radius: 10px;
+}
+
+.back3 {
+  width: 20%;
+  opacity: 50%;
+  position: absolute;
+  top: 400px;
+  left: 995px;
+  border: 3px solid red;
+  border-radius: 10px;
+}
+
+.back4 {
+  width: 20%;
+  opacity: 50%;
+  position: absolute;
+  top: 400px;
+  left: 1420px;
+  border: 3px solid red;
+  border-radius: 10px;
+}
+
+.back5 {
+  width: 20%;
+  opacity: 50%;
+  position: absolute;
+  border: 3px solid red;
+  border-radius: 10px;
+  top: 750px;
+  left: 65px;
+}
+
+.back6 {
+  width: 20%;
+  opacity: 50%;
+  position: absolute;
+  border: 3px solid red;
+  border-radius: 10px;
+  top: 750px;
+  left: 485px;
+}
+
+.back7 {
+  width: 20%;
+  opacity: 50%;
+  position: absolute;
+  border: 3px solid red;
+  border-radius: 10px;
+  top: 750px;
+  left: 995px;
+}
+
+.back8 {
+  width: 20%;
+  opacity: 50%;
+  position: absolute;
+  border: 3px solid red;
+  border-radius: 10px;
+  top: 750px;
+  left: 1420px; 
+}
+
+.back9 {
+  width: 20%;
+  opacity: 50%;
+  position: absolute;
+  border: 3px solid red;
+  border-radius: 10px;
+  top: 1100px;
+  left: 65px;
+}
+
+.back10 {
+  width: 20%;
+  opacity: 50%;
+  position: absolute;
+  border: 3px solid red;
+  border-radius: 10px;
+  top: 1100px; 
+  left: 485px;
+}
+
+.back11 {
+  width: 20%;
+  opacity: 50%;
+  position: absolute;
+  border: 3px solid red;
+  border-radius: 10px;
+  top: 1100px;
+  left: 995px;
+}
+
+.back12 {
+  width: 20%;
+  opacity: 50%;
+  position: absolute;
+  border: 3px solid red;
+  border-radius: 10px;
+  top: 1100px;
+  left: 1420px;
+}
+
+.boutique-icon {
+  position: absolute;
+  top: 35px;
+  left: 650px;
+}
