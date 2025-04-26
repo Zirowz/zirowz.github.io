@@ -1,0 +1,92 @@
+body {
+    background-color: #333;
+}
+
+.logo img {
+    cursor: pointer;
+    width: 15%;
+  }
+  
+  .logo img:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+    transition: 0.3s ease;
+  }
+
+  .avertissement {
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    top: 270px;
+    left: 140px;
+  }
+
+  .warn {
+    position: absolute;
+    width: 7%;
+    top: 285px;
+  }
+
+  .boutique-icon {
+    position: absolute;
+    top: 35px;
+    left: 650px;
+  }
+
+  .line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    position: absolute;
+    width: 1905px;
+    height: 17px;
+  }
+
+  .line::before {
+    content: "";
+    position: absolute;
+    top: 90px;
+    left: 0px;
+    right: 0;
+    height: 5px;
+    background: red;
+    background-size: 20px 100%;
+  }
+
+  .conditions {
+    position: absolute;
+    color: gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    top: 390px;
+    left: 140px;
+}
+
+.paypal {
+    position: absolute;
+    width: 10%;
+    top: 230px;
+    right: 280px;
+}
+
+.payer {
+    position: absolute;
+    color: white;
+    right: 230px;
+    top: 325px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a {
+    color: rgb(66, 66, 255);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: whitesmoke;
+    text-decoration: underline;
+  }
+  

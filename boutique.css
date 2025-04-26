@@ -1,0 +1,380 @@
+body {
+  background-color: #333;
+  color: white;
+}
+
+.scroll {
+  background-color: #333;
+  padding: 20px;
+  min-height: 150vh;
+}
+
+.logo img {
+  cursor: pointer;
+  width: 10%;
+}
+
+.logo img:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+  transition: 0.3s ease;
+}
+
+.f2w {
+  position: absolute;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  top: 200px;
+  left: 50px;
+}
+
+.line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  position: absolute;
+  width: 500px;
+  height: 17px;
+}
+
+.line::before {
+  content: "";
+  position: absolute;
+  top: 143px;
+  left: 18px;
+  right: 0;
+  height: 5px;
+  background: red;
+  background-size: 20px 100%;
+}
+
+.back1 {
+  width: 20%;
+  opacity: 100%;
+  position: absolute;
+  top: 400px;
+  left: 65px;
+  border: 3px solid red;
+  border-radius: 10px;
+}
+
+.back2 {
+  width: 20%;
+  opacity: 100%;
+  position: absolute;
+  top: 400px;
+  left: 485px;
+  border: 3px solid red;
+  border-radius: 10px;
+}
+
+.back3 {
+  width: 20%;
+  opacity: 100%;
+  position: absolute;
+  top: 400px;
+  left: 995px;
+  border: 3px solid red;
+  border-radius: 10px;
+}
+
+.back4 {
+  width: 20%;
+  opacity: 100%;
+  position: absolute;
+  top: 400px;
+  left: 1420px;
+  border: 3px solid red;
+  border-radius: 10px;
+}
+
+.back5 {
+  width: 20%;
+  opacity: 100%;
+  position: absolute;
+  border: 3px solid red;
+  border-radius: 10px;
+  top: 750px;
+  left: 65px;
+}
+
+.back6 {
+  width: 20%;
+  opacity: 100%;
+  position: absolute;
+  border: 3px solid red;
+  border-radius: 10px;
+  top: 750px;
+  left: 485px;
+}
+
+.back7 {
+  width: 20%;
+  opacity: 100%;
+  position: absolute;
+  border: 3px solid red;
+  border-radius: 10px;
+  top: 750px;
+  left: 995px;
+}
+
+.back8 {
+  width: 20%;
+  opacity: 100%;
+  position: absolute;
+  border: 3px solid red;
+  border-radius: 10px;
+  top: 750px;
+  left: 1420px; 
+}
+
+.back9 {
+  width: 20%;
+  opacity: 100%;
+  position: absolute;
+  border: 3px solid red;
+  border-radius: 10px;
+  top: 1100px;
+  left: 65px;
+}
+
+.back10 {
+  width: 20%;
+  opacity: 100%;
+  position: absolute;
+  border: 3px solid red;
+  border-radius: 10px;
+  top: 1100px; 
+  left: 485px;
+}
+
+.back11 {
+  width: 20%;
+  opacity: 100%;
+  position: absolute;
+  border: 3px solid red;
+  border-radius: 10px;
+  top: 1100px;
+  left: 995px;
+}
+
+.back12 {
+  width: 20%;
+  opacity: 100%;
+  position: absolute;
+  border: 3px solid red;
+  border-radius: 10px;
+  top: 1100px;
+  left: 1420px;
+}
+
+.boutique-icon {
+  position: absolute;
+  top: 35px;
+  left: 650px;
+}
+
+.shop-item {
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.shop-item img {
+  transition: transform 0.3s ease;
+  display: block;
+  cursor: pointer;
+}
+
+.shop-item:hover img {
+  transform: scale(1.05);
+}
+
+
+.shop-item2 {
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.shop-item2 img {
+  transition: transform 0.3s ease;
+  display: block;
+  cursor: pointer;
+}
+
+.shop-item2:hover img {
+  transform: scale(1.05);
+}
+
+
+.shop-item3 {
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.shop-item3 img {
+  transition: transform 0.3s ease;
+  display: block;
+  cursor: pointer;
+}
+
+.shop-item3:hover img {
+  transform: scale(1.05);
+}
+
+
+.shop-item4 {
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.shop-item4 img {
+  transition: transform 0.3s ease;
+  display: block;
+  cursor: pointer;
+}
+
+.shop-item4:hover img {
+  transform: scale(1.05);
+}
+
+
+.shop-item5 {
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.shop-item5 img {
+  transition: transform 0.3s ease;
+  display: block;
+  cursor: pointer;
+}
+
+.shop-item5:hover img {
+  transform: scale(1.05);
+}
+
+
+.shop-item6 {
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.shop-item6 img {
+  transition: transform 0.3s ease;
+  display: block;
+  cursor: pointer;
+}
+
+.shop-item6:hover img {
+  transform: scale(1.05);
+}
+
+
+.shop-item7 {
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.shop-item7 img {
+  transition: transform 0.3s ease;
+  display: block;
+  cursor: pointer;
+}
+
+.shop-item7:hover img {
+  transform: scale(1.05);
+}
+
+
+.shop-item8 {
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.shop-item8 img {
+  transition: transform 0.3s ease;
+  display: block;
+  cursor: pointer;
+}
+
+.shop-item8:hover img {
+  transform: scale(1.05);
+}
+
+
+.shop-item9 {
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.shop-item9 img {
+  transition: transform 0.3s ease;
+  display: block;
+  cursor: pointer;
+}
+
+.shop-item9:hover img {
+  transform: scale(1.05);
+}
+
+
+.shop-item10 {
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.shop-item10 img {
+  transition: transform 0.3s ease;
+  display: block;
+  cursor: pointer;
+}
+
+.shop-item10:hover img {
+  transform: scale(1.05);
+}
+
+
+
+.shop-item11 {
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.shop-item11 img {
+  transition: transform 0.3s ease;
+  display: block;
+  cursor: pointer;
+}
+
+.shop-item11:hover img {
+  transform: scale(1.05);
+}
+
+
+.shop-item12 {
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.shop-item12 img {
+  transition: transform 0.3s ease;
+  display: block;
+  cursor: pointer;
+}
+
+.shop-item12:hover img {
+  transform: scale(1.05);
+}
+
+body {
+  font-size: 18px;
+  padding: 40px;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+    padding: 20px;
+  }
+}
